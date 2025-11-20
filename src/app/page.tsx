@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -6,7 +6,7 @@ import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCa
 import AboutFeature from '@/components/sections/about/AboutFeature';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
-import MetricCardOne from '@/components/sections/metric/MetricCardOne';
+import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -14,7 +14,7 @@ import FaqBase from '@/components/sections/faq/FaqBase';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Crown, Mountain, Utensils, Sparkles, Star, Bed, Award, Clock, Heart, Trophy, Users, MessageCircle, HelpCircle, BookOpen } from "lucide-react";
+import { Crown, Mountain, Utensils, Sparkles, Star, Bed, Award, Clock, Heart, Trophy, Users, MessageCircle, HelpCircle, BookOpen, Linkedin, Instagram, Mail } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -288,7 +288,7 @@ export default function LandingPage() {
               imageAlt: "Laurent Dubois, General Manager",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/laurent-dubois"
                 }
               ]
@@ -302,7 +302,7 @@ export default function LandingPage() {
               imageAlt: "Chef Isabella Rossi",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/chef-isabella"
                 }
               ]
@@ -316,7 +316,7 @@ export default function LandingPage() {
               imageAlt: "Marcus Weber, Chief Concierge",
               socialLinks: [
                 {
-                  icon: "Mail",
+                  icon: Mail,
                   url: "mailto:concierge@chateaualpin.ch"
                 }
               ]
